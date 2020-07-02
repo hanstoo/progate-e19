@@ -1,0 +1,257 @@
+/* PROFILE */
+.main-profile {
+  padding: 50px 20px;
+  background-color: #34495e;
+}
+
+.main-profile h3 {
+  text-align: center;
+  color: #ecf0f1;
+  font-weight: 300;
+  font-size: 35px;
+  letter-spacing: 8px;
+}
+
+.profile-wrapper {
+  margin-top: 75px;
+}
+
+.profile {
+  margin-bottom: 25px;
+}
+
+.profile-image {
+  text-align: center;
+}
+
+.profile-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.profile-text {
+  text-align: center;
+}
+
+p.profile-name {
+  color: #f39c12;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  opacity: 0;
+}
+
+p.profile-job {
+  color: #ecf0f1;
+  font-size: 15px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  opacity: 0;
+}
+
+.profile-text p {
+  margin: 0;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e {
+  position: relative;
+}
+
+.a .profile-hover,
+.b .profile-hover,
+.c .profile-hover,
+.d .profile-hover,
+.e .profile-hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  height: 150px;
+  width: 250px;
+  background-color: rgba(44, 62, 80, 0);
+  transition: all 0.8s ease;
+}
+
+.a:hover .profile-hover,
+.b:hover .profile-hover,
+.c:hover .profile-hover,
+.d:hover .profile-hover,
+.e:hover .profile-hover {
+  background-color: rgba(44, 62, 80, 0.8);
+}
+
+.a:hover .profile-hover p,
+.b:hover .profile-hover p,
+.c:hover .profile-hover p,
+.d:hover .profile-hover p,
+.e:hover .profile-hover p {
+  opacity: 1;
+}
+
+.profile-hover p {
+  opacity: 0;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .main-profile h3 {
+    font-size: 35px;
+    letter-spacing: 15px;
+  }
+
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile-image img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .profile-image {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    width: 44%;
+  }
+
+  .profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    border-left: 2px solid #95a5a6;
+    width: 44%;
+  }
+
+  p.profile-name {
+    font-size: 20px;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+
+  p.profile-job {
+    font-size: 20px;
+    letter-spacing: 5px;
+    opacity: 1;
+  }
+
+  .profile-hover {
+    opacity: 0;
+    transition: none!important;
+  }
+}
+
+@media (min-width: 992px) {
+  .main-profile h3 {
+    font-size: 35px;
+    letter-spacing: 15px;
+  }
+
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile-image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .profile-image {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    width: 46%;
+  }
+
+  .profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    border-left: 2px solid #95a5a6;
+    width: 45%;
+  }
+
+  p.profile-name {
+    font-size: 20px;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+
+  p.profile-job {
+    font-size: 20px;
+    letter-spacing: 5px;
+    opacity: 1;
+  }
+
+  .profile-hover {
+    opacity: 0;
+    transition: none!important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-profile h3 {
+    font-size: 35px;
+    letter-spacing: 15px;
+  }
+
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile-image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .profile-image {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+    width: 47%;
+  }
+
+  .profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 40px;
+    border-left: 2px solid #95a5a6;
+    width: 47%;
+  }
+
+  p.profile-name {
+    font-size: 20px;
+    letter-spacing: 0px;
+    opacity: 1;
+  }
+
+  p.profile-job {
+    font-size: 20px;
+    letter-spacing: 5px;
+    opacity: 1;
+  }
+
+  .profile-hover {
+    opacity: 0;
+    transition: none!important;
+  }
+}
